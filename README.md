@@ -11,7 +11,7 @@
 ![screenshot](https://i.imgur.com/5JZcA3L.png)
 
 ## 🚀 線上預覽
-[https://your-spiderman-demo.vercel.app](https://your-spiderman-demo.vercel.app)
+[https://shuiananOTE.github.io/spiderman-handcrafted-site/](https://shuainanOTE.github.io/spiderman-handcrafted-site/)
 
 ## 📁 如何查看
 1. 點右上角綠色按鈕「Code」→「Download ZIP」
