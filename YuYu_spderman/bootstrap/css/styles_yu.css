@@ -1,0 +1,460 @@
+#Game {
+    background-image: url(../picture/bg\ 1.png);
+    background-size: cover;
+    /* 圖片填滿區域 */
+    background-position: center;
+    /* 圖片居中 */
+    background-repeat: no-repeat;
+    /* 不重複 */
+    height: 700px;
+    /* 根據需要調整高度 */
+}
+
+#Introduction {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0)90%, rgba(0, 0, 0, 1)), url(../picture/bg\ 3-1.jpg);
+    background-size: cover;
+    /* 圖片填滿區域 */
+    background-position: center;
+    /* 圖片居中 */
+    background-repeat: no-repeat;
+    /* 不重複 */
+    height: 900px;
+    /* 根據需要調整高度 */
+
+}
+
+#Role {
+    background-color: black;
+    background-size: cover;
+    /* 圖片填滿區域 */
+    background-position: center;
+    /* 圖片居中 */
+    background-repeat: no-repeat;
+    /* 不重複 */
+    height: 1000px;
+    /* 根據需要調整高度 */
+}
+
+#Role .image {
+    user-select: none;
+    /* 防止選取 */
+    pointer-events: none;
+    /* 禁止拖曳 */
+}
+
+
+#LatestNews {
+    background-image: url(../picture/red\ 2.webp);
+    background-size: cover;
+    /* 圖片填滿區域 */
+    background-position: center;
+    /* 圖片居中 */
+    background-repeat: no-repeat;
+    /* 不重複 */
+    height: 775px;
+    /* 根據需要調整高度 */
+}
+
+#PS5 {
+    background-image: url(../picture/red.png);
+    background-size: cover;
+    /* 圖片填滿區域 */
+    background-position: center;
+    /* 圖片居中 */
+    background-repeat: no-repeat;
+    /* 不重複 */
+    height: 600px;
+    /* 根據需要調整高度 */
+}
+
+#FAQ {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0)80%, rgba(0, 0, 0, 1)),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0)80%, rgba(0, 0, 0, 1)),
+        url(../picture/black\ spider\ 4.jpg);
+    background-size: content;
+    /* 圖片填滿區域 */
+    background-repeat: no-repeat;
+    /* 不重複 */
+    height: 700px;
+    /* 根據需要調整高度 */
+}
+
+#sign {
+    background-image: url(../picture/選單/IDD.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* 不重複 */
+    height: 625px;
+}
+
+#form {
+
+    padding-top: 100px;
+    padding-left: 850px;
+
+}
+
+/* 基本的按鈕_____________________________________________________ */
+.hover-buttom {
+    opacity: 1;
+    /* 初始透明度 */
+    transition: opacity 0.3s ease;
+    /* 添加過渡效果 */
+}
+
+.hover-buttom:hover {
+    opacity: 0.7;
+    /* 鼠標懸停時降低透明度 */
+}
+
+/* ------------------------------------------------------- */
+.accordion-item:nth-child(odd) .accordion-button {
+    background-color: #363636;
+    /* 基數項目的背景色 */
+}
+
+.accordion-button:hover {
+    background-color: #007bff;
+    /* 背景改為藍色 */
+    transition: all 0.3s ease;
+    /* 添加平滑過渡效果 */
+}
+
+/* 基數按鈕的懸停樣式 */
+.accordion-item:nth-of-type(odd) .accordion-button:hover {
+    background-color: #007bff;
+    /* 改為深紅色 */
+    transition: 0.3s ease;
+    /* 過渡效果 */
+}
+
+.card {
+    background-color: #000000d2;
+    /* 卡片背景色 */
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+#spider-black-container {
+    margin-top: 510px;
+    /* 與圖片保持距離 */
+    text-align: justify;
+    /* 左右對齊文字 */
+    background-color: #000;
+    /* 文字背景 */
+    color: white;
+    /* 文字顏色 */
+    padding: 0px;
+    /* 內邊距 */
+    max-width: 595px;
+    /* 與 #spider 保持一致的寬度 */
+}
+
+#spider-container {
+    margin-top: 510px;
+    /* 與圖片保持距離 */
+    text-align: justify;
+    /* 左右對齊文字 */
+    background-color: #000;
+    /* 文字背景 */
+    color: white;
+    /* 文字顏色 */
+    padding: 0px;
+    /* 內邊距 */
+    max-width: 595px;
+    /* 與 #spider 保持一致的寬度 */
+}
+
+/*  */
+
+/* ________________________________________________________________________________________________________________- */
+/* 滑塊的 */
+/* 滑塊容器 */
+
+#slider-container,
+#slider-container-right {
+    position: relative;
+    top: 40px;
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    overflow: visible;
+    border: 2px solid #333;
+    float: left;
+    /* 浮動讓它們左右對齊 */
+    margin-left: 100px;
+    /* 調整這個值以增加右移距離 */
+}
+
+#slider-container-right {
+    margin-left: 100px;
+    /* 或者調整以分隔左右間距 */
+
+}
+
+/* 圖片外框 */
+.image-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+
+}
+
+/* 左圖，裁切右半 */
+.image-left {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: inset(0 50% 0 0);
+    /* 左圖初始遮罩 */
+    z-index: 2;
+}
+
+/* 右圖，完整顯示 */
+.image-right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* 滑塊 */
+#slider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 5px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    /* 滑塊游標樣式 */
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+/* 滑塊的把手 */
+#handle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 讓箭頭居中 */
+
+}
+
+#handle::before {
+    content: "❮";
+    /* 左箭頭符號 */
+    position: absolute;
+    left: 8px;
+    /* 靠左 */
+    font-size: 15px;
+    color: #000;
+    /* 設置箭頭顏色 */
+
+}
+
+#handle::after {
+    content: "❯";
+    /* 右箭頭符號 */
+    position: absolute;
+    right: 8px;
+    /* 靠右 */
+    font-size: 15px;
+    color: #000;
+    /* 設置箭頭顏色 */
+}
+
+/* ____________________________________________________________________________________________________________________ */
+
+/* 固定 Header，確保它不會被 Offcanvas 蓋住 */
+header {
+    height: 36px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* 確保 Header 在最上層 */
+}
+
+#main-header {
+    position: sticky;
+    top: 0;
+    /* 在滾動時黏附在頂部 */
+    background-color: white;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    /* 平滑過渡效果 */
+    height: 50px;
+}
+
+/* 避免內容被 Header 擋住，添加 margin-top */
+.content {
+    margin-top: 36px;
+    /* 避免內容擠到 header 底下 */
+}
+
+/* Bootstrap 5.2.3 Offcanvas 自訂樣式 */
+.offcanvas-custom {
+    height: 200px !important;
+    /* 設定清單高度 */
+    width: 100vw;
+    z-index: 1200;
+}
+
+.offcanvas-body {
+    padding: 10px 50px 0px 50px;
+}
+
+/* 懸浮搜尋框___________________________________________ */
+.custom-search {
+    position: absolute;
+    top: 18px;
+    left: 400px;
+    /* 距離右側 20px */
+}
+
+
+.modal-dialog {
+    max-width: 45% !important;
+    /* 讓 Modal 變寬 */
+}
+
+.modal {
+    z-index: 1500 !important;
+    /* 提高搜尋視窗層級，確保蓋住其他內容 */
+}
+
+.modal-content {
+    background: transparent !important;
+    /* 移除背景 */
+    box-shadow: none !important;
+    /* 移除陰影 */
+    border: none !important;
+    /* 移除邊框 */
+}
+
+
+/* 下拉清單 */
+.custom-select {
+    width: 100px;
+    /* 明確設定 20% 寬度 */
+    height: 60px;
+    background-color: #f8f9fa;
+    color: #333;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.custom-select option {
+    font-size: 20px;
+    /* 調整選項的字體大小 */
+    border-radius: 0;
+}
+
+
+/* 搜尋輸入框 */
+.custom-input {
+    width: 290px !important;
+    /* 讓它佔 60% */
+    height: 60px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    font-size: 20px;
+}
+
+
+/* 搜尋按鈕 */
+.custom-btn {
+    width: 70px;
+    /* 設定 20% 寬度 */
+    height: 60px;
+    background-color: #0072ce;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    border-radius: 0px;
+    display: flex;
+    align-items: center; /* 垂直置中 */
+    justify-content: center; /* 水平置中 */
+}
+
+/* 移除點擊時的外框 */
+.custom-select:focus,
+.custom-input:focus,
+.custom-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/*  小東西__________________________________________________ */
+ul.row {
+    list-style: none;
+    /* 移除圓點 */
+    display: flex;
+    justify-content: center;
+    /* 讓整個 `ul` 內容置中 */
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 0;
+    gap: 0px;
+    /* 控制每個項目之間的間距 */
+}
+
+ul.row li {
+    display: flex;
+    justify-content: center;
+    /* 讓 `li` 裡面的內容水平置中 */
+    align-items: center;
+    /* 讓 `li` 裡面的內容垂直置中 */
+    text-align: center;
+}
+
+ul.row li a img {
+    width: 100%;
+    /* 讓圖片根據 `col-lg-2` 的寬度縮放 */
+    max-width: 115px;
+    /* 限制圖片最大尺寸 */
+    height: auto;
+}
+
+
+
+#OffcanvasWord .hover-buttom::before {
+    content: "•";
+    /* 使用 Unicode 圓點 */
+    color: #1669d7;
+    /* 設定藍色 */
+    font-size: 20px;
+    /* 調整圓點大小 */
+    margin-right: 5px;
+    /* 調整圓點與文字的間距 */
+    display: inline-block;
+}
+/* 腳色分頁__________________________________________ */
