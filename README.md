@@ -8,8 +8,7 @@
 - JavaScript（基本互動與滾動效果）
 
 ## 📸 預覽畫面
-![screenshot]([https://i.imgur.com/5JZcA3L.png](https://shuainanOTE.github.io/spiderman-handcrafted-site/YuYu_spderman/bootstrap/picture/spidermansony.png
-)
+![screenshot](https://shuainanOTE.github.io/spiderman-handcrafted-site/YuYu_spderman/bootstrap/picture/spidermansony.png)
 
 ## 🚀 線上預覽
 [https://shuiananOTE.github.io/spiderman-handcrafted-site/](https://shuainanOTE.github.io/spiderman-handcrafted-site/)
