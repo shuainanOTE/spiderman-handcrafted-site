@@ -11,7 +11,7 @@
 ![screenshot](https://shuainanOTE.github.io/spiderman-handcrafted-site/YuYu_spderman/bootstrap/picture/spidermansony.png)
 
 ## 🚀 線上預覽
-[https://shuiananOTE.github.io/spiderman-handcrafted-site/](https://shuainanOTE.github.io/spiderman-handcrafted-site/)
+[[https://shuiananOTE.github.io/spiderman-handcrafted-site/](https://shuainanOTE.github.io/spiderman-handcrafted-site/)](https://spiderman-handcrafted-site.vercel.app/)
 
 ## 📁 如何查看
 1. 點右上角綠色按鈕「Code」→「Download ZIP」
